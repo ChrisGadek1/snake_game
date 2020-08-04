@@ -1,0 +1,58 @@
+body{
+    background-color: #570316;
+    color: #e80e3f;
+}
+header{
+    width:200px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#game{
+    width: 780px;
+    height: 540px;
+    border: #e80e3f solid;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+#container_inner{
+    display: inline-block;
+}
+#points > div{
+    font-size: 20px;
+}
+#start_menu > *{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#menu_diff{
+    float: left;
+}
+
+#menu_diff > *{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#button_container > button{
+    margin: 20px;
+}
+
+#button_container{
+    float: left;
+}
+
+button{
+    background-color: #e80e3f;
+    border-color: #570316;
+}
+
+button:hover{
+    background-color: #570316;
+}
