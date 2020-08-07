@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
     <script src="p5.min.js"></script>
     <script src="jquery-3.5.1.min.js"></script>
     <script src="buckets.min.js"></script>
@@ -14,32 +15,36 @@
     <article>
         <div style="text-align: center;">
             <div id="container_inner">
-                <div id="game"></div>
+                <div style="float: left; border: #e80e3f solid; margin-right: 10px;">
+                    Sterowanie:<br>
+                    góra - w<br>
+                    lewo - a<br>
+                    dół - s<br>
+                    prawo - d<br>
+                    spacja - pauza
+                </div>
+                <div style="float: left; margin-right: 10px;">
+                    <div id="game"></div>
+                    <div id="start_menu">
+                        <div id="menu_diff">
+                            <label for="choose_dif">wybierz poziom trudności</label>
+                            <select id="choose_dif">
+                                <option>łatwy</option>
+                                <option selected>normalny</option>
+                                <option>trudny</option>
+                            </select>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
                 <div id="points" style="float: left;">
                     <div >ilość punktów</div>
-                    <div>0</div>
+                    <div id="count">0</div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
         </div>
         <div style="text-align: center;">
-        </div>
-        <div style="text-align: center;">
-            <div id="start_menu" style="display: inline-block;">
-                <div id="menu_diff">
-                    <label for="choose_dif">wybierz poziom trudności</label>
-                    <select id="choose_dif">
-                        <option>łatwy</option>
-                        <option selected>normalny</option>
-                        <option>trudny</option>
-                    </select>
-                </div>
-                <div id="button_container">
-                    <button>start</button>
-                    <button>pauza</button>
-                </div>
-                <div style="clear: both;"></div>
-            </div>
         </div>
     </article>
 </body>
