@@ -1,4 +1,4 @@
-# snake_game
+# snake game
 I've posted here my implementation of the popular game: snake. It's mostly based on the Queue - data structure, so it runs fluently. The player can pause the game by the space, and resume it also by the space. There are three difficulity levels: Easy, Medium and Hard.
 
 # Technologies
@@ -11,3 +11,6 @@ I've posted here my implementation of the popular game: snake. It's mostly based
 
 # Screenshots
 ![Alt_text](/img/screenshots/Screenshot_snake_1.png)
+
+# link to deployed app
+https://gra-waz.herokuapp.com/
